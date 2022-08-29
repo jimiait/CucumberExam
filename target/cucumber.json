@@ -1,0 +1,194 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1808909800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestStepDefinition.methodName()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "cucumber-project-sky-blue-background-color-validation;sky-blue-background",
+        "after": [
+          {
+            "result": {
+              "duration": 657936500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 430496500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the TechFios test page;",
+            "match": {
+              "location": "TestStepDefinition.user_is_on_the_TechFios_test_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32827200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Set SkyBlue Background button exists;",
+            "match": {
+              "location": "TestStepDefinition.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49805600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the SkyBlue Background button;",
+            "match": {
+              "location": "TestStepDefinition.i_click_on_the_SkyBlue_Background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24926700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "TestStepDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cucumber project Sky Blue background color validation",
+    "description": "",
+    "id": "cucumber-project-sky-blue-background-color-validation",
+    "keyword": "Feature",
+    "uri": "features/SkyBlue.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BackgroundColorValidation"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1205851100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestStepDefinition.methodName()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "White Background Change;",
+        "description": "",
+        "id": "cucumber-project-background-white-color-validation;white-background-change;",
+        "after": [
+          {
+            "result": {
+              "duration": 693661900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 338604500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the TechFios test page;",
+            "match": {
+              "location": "TestStepDefinition.user_is_on_the_TechFios_test_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33265500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Set SkyWhite Background button exists;",
+            "match": {
+              "location": "TestStepDefinition.set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42123600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the SkyWhite Background button;",
+            "match": {
+              "location": "TestStepDefinition.i_click_on_the_SkyWhite_Background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25003400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "TestStepDefinition.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cucumber project background White color validation",
+    "description": "",
+    "id": "cucumber-project-background-white-color-validation",
+    "keyword": "Feature",
+    "uri": "features/White.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BackgroundColorValidation"
+      }
+    ]
+  }
+]
