@@ -2,6 +2,7 @@ package steps;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import cucumber.api.java.After;
@@ -30,13 +31,18 @@ public class TestStepDefinition extends TestBase{
 	
 	@When("^Set SkyBlue Background button exists;$")
 	public void set_SkyBlue_Background_button_exists() {
-	Assert.assertTrue(driver.findElement(By.xpath("//button[contains(text(), 'Set SkyBlue Background')]")).isEnabled());
+		Assert.assertTrue(driver.findElement(By.xpath("//button[contains(text(), 'Set SkyBlue Background')]")).isEnabled());
 	}
 
 	@When("^I click on the SkyBlue Background button;$")
 	public void i_click_on_the_SkyBlue_Background_button(){
 		testPage.clickOnSetSkyBlueBackgroundButton();
-
+		TestBase.takeScreenshot(driver);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Then("^the background color will change to sky blue$")
@@ -53,6 +59,13 @@ public class TestStepDefinition extends TestBase{
 	@When("^I click on the SkyWhite Background button;$")
 	public void i_click_on_the_SkyWhite_Background_button(){
 	    testPage.clickOnSetWhiteBackgroundButton();
+	    TestBase.takeScreenshot(driver);
+	    try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Then("^the background color will change to white$")

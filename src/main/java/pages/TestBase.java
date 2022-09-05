@@ -28,7 +28,7 @@ public class TestBase{
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 }
 	 
-	 public void takeScreenshot(WebDriver driver) {
+	 public static void takeScreenshot(WebDriver driver) {
 		 TakesScreenshot ts = (TakesScreenshot) driver;
 		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
 		SimpleDateFormat formatter = new SimpleDateFormat("MMddyy_HHmmss");
